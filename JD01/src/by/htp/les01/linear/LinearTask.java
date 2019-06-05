@@ -12,9 +12,9 @@ public class LinearTask {
 	// linear
 	public static void exLine01() {
 
-		float x = 4.0f;
-		float y = 3.0f;
-		float res = 0.0f;
+		double x = 4.0D;
+		double y = 3.0D;
+		double res = 0.0D;
 
 		res = x + y;
 		System.out.println("Sum of " + x + " and " + y + " equals to " + res);
@@ -33,8 +33,8 @@ public class LinearTask {
 	public static void exLine02() {
 
 		// c = 3 + a
-		float a = 2.0f;
-		float c = 0.0f;
+		double a = 2.0D;
+		double c = 0.0D;
 
 		c = 3 + a;
 		System.out.println("c = 3 + a");
@@ -45,9 +45,9 @@ public class LinearTask {
 	public static void exLine03() {
 
 		// z = 2 * x + ((y - 2) * 5)
-		float x = 2.0f;
-		float y = 4.0f;
-		float res = 0.0f;
+		double x = 2.0D;
+		double y = 4.0D;
+		double res = 0.0D;
 
 		res = (2 * x) + ((y - 2) * 5);
 		System.out.println("z = 2 * x + ( y - 2 ) * 5");
@@ -58,10 +58,10 @@ public class LinearTask {
 	public static void exLine04() {
 
 		// z = ((a - 3) * b / 2) + c
-		float a = 2.0f;
-		float b = 1.0f;
-		float c = 3.0f;
-		float res = 0.0f;
+		double a = 2.0D;
+		double b = 1.0D;
+		double c = 3.0D;
+		double res = 0.0D;
 
 		res = ((a - 3) * b / 2) + c;
 		System.out.println("z = ( (a - 3 ) * b / 2) + c");
@@ -71,9 +71,9 @@ public class LinearTask {
 
 	public static void exLine05() {
 
-		float a = 5.0f;
-		float b = 10.0f;
-		float res = 0.0f;
+		double a = 5.0D;
+		double b = 10.0D;
+		double res = 0.0D;
 
 		res = (a + b) / 2;
 		System.out.println("Avarage of " + a + " and " + b + " is " + res);
@@ -82,9 +82,9 @@ public class LinearTask {
 
 	public static void exLine06() {
 
-		float n = 4.0f;
-		float m = 6.0f;
-		float res = 0.0f;
+		double n = 4.0D;
+		double m = 6.0D;
+		double res = 0.0D;
 
 		res = ((80 / n) + 12) * m;
 		System.out.println("Result: " + res);
@@ -93,9 +93,9 @@ public class LinearTask {
 
 	public static void exLine07() {
 
-		float x = 10.0f;
-		float y = 0.0f;
-		float res = 0.0f;
+		double x = 10.0D;
+		double y = 0.0D;
+		double res = 0.0D;
 
 		y = x / 2;
 		res = x * y; // or x * (x / 2)
@@ -117,11 +117,11 @@ public class LinearTask {
 
 	public static void exLine09() {
 
-		float a = 5.0f;
-		float b = 4.0f;
-		float c = 2.0f;
-		float d = 3.0f;
-		float res = 0.0f;
+		double a = 5.0D;
+		double b = 4.0D;
+		double c = 2.0D;
+		double d = 3.0D;
+		double res = 0.0D;
 
 		res = ((a / c) * (b / d)) - ((a * b - c) / (c * d));
 		System.out.println(res);
