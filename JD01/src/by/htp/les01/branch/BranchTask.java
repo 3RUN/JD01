@@ -134,7 +134,7 @@ public class BranchTask {
 
 	public static void exBranch10() {
 
-		float PI = 3.14f;
+		double PI = 3.14D;
 		double radA = 5D;
 		double radB = 2D;
 		double circleA = Math.pow(radA, 2) * PI;
