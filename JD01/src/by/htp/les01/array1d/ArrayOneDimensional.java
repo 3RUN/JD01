@@ -17,19 +17,19 @@ public class ArrayOneDimensional {
 		int i = 0;
 		int K = 2;
 		int sum = 0;
-		int[] A = new int[5];
+		int[] a = new int[5];
 
 		System.out.println("Array with random numbers: ");
 
-		for (i = 0; i < A.length; i++) {
-			A[i] = Helper.getRandomRange(1, 10);
-			System.out.print(A[i] + " ");
+		for (i = 0; i < a.length; i++) {
+			a[i] = Helper.getRandomRange(1, 10);
+			System.out.print(a[i] + " ");
 		}
 
-		for (i = 0; i < A.length; i++) {
+		for (i = 0; i < a.length; i++) {
 
-			if ((A[i] % K) == 0) {
-				sum += A[i];
+			if ((a[i] % K) == 0) {
+				sum += a[i];
 			}
 
 		}
